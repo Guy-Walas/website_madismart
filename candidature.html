@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylessheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <meta charset="utf-8">
+        <title>madismart</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+
+
+    
+
+
+
+
+
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="image/logovectoriel.png">
+            </div>
+            <nav class="menu">
+                <div class="head">
+                    <div class="logo"><img src="image/logovectoriel.png"></div>
+                    <button type="button" class="close-menu-btn"></button>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="coloraccueil">Accueil</a></li>
+                    <li class="dropdown">
+                        <a href="#apropos">apropos</a>
+                        <i class="fa fa-angle-down" aria-hidden="true" ></i>
+                        <ul class="sub-menu">
+                            <li><a href="motdudg.html"><span>Le mot du DG</span></a></li>
+                            <li><a href="quisommesnous.html"><span>Qui sommes nous?</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="dropdown">
+                        <a href="#recrutement" class="colorrh">Espace recrutement</a>
+                        <i class="fa fa-angle-down" aria-hidden="true" ></i>
+                        <ul class="sub-menu">
+                            <li><a href="recrutement.html" ><span>Plateforme RH</span></a></li>
+                            <li><a href="candidature.html" class="colorcandidature"><span>Candidature spontanée</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="toutnosprojet.html">Nos Références</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <button type="button" class="open-menu-btn">
+                    <span class="line line-1"></span>
+                    <span class="line line-2"></span>
+                    <span class="line line-3"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="mainMCCRcandidature" id="MCCR">
+        <div class="container">
+            <div class="col-lg-7">
+               <h1>Rejoignez-nous : Postulez Librement !</h1>
+               <input type="text" placeholder="Poste">
+               <button class="btn2">Rechercher</button>
+            </div>
+        </section>
+        <section>
+            <h3>Vous &ecirc;tes &agrave; la recherche d'un environnement de travail stimulant, o&ugrave; vos comp&eacute;tences seront valoris&eacute;es et o&ugrave; vous aurez l'opportunit&eacute; de grandir professionnellement ? Ne cherchez plus, vous &ecirc;tes au bon endroit !</h3>
+
+            <p>Bienvenue sur notre page d&eacute;di&eacute;e aux candidatures spontan&eacute;es! Chez MADISMART, nous sommes toujours &agrave; la recherche de talents exceptionnels pour rejoindre notre &eacute;quipe dynamique. </p>
+            <p>Si vous &ecirc;tes passionn&eacute;(e) par le secteur de l'&eacute;lectricit&eacute; batiment, de la maintenance informatique et electronique, de l'installation de camera et que vous partagez notre vision de l’excellence, nous vous invitons &agrave; postuler librement en remplissant le formulaire ci-dessous</p>
+        </section>
+
+
+
+
+           <section class="contactMCCR" id="MCCR">
+<div class="box-container">
+</div>
+</div>
+
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="8dda9d14-3a72-4a32-bf95-d7c6ad7d51b6">
+    <h3>Envoi ton message</h3>
+    <div class="flex">
+       <div class="boxMCCR">
+        <p>nom <span>*</span></p>
+        <input type="text" name="name" required maxlength="20" placeholder="Ecrire ton nom" class="input">
+       </div> 
+       <div class="boxMCCR">
+        <p>email <span>*</span></p>
+        <input type="email" name="email" required maxlength="50" placeholder="Ecrire ton email" class="input">
+       </div>
+       <div class="boxMCCR">
+        <p>Num&eacute;ro de t&eacute;l&eacute;phone <span>*</span></p>
+        <input type="number" name="number" required min="0" max="9999999999" placeholder="entrer le num&eacute;ro" class="input">
+       </div>
+       <div class="boxMCCR">
+        <p>poste <span>*</span></p>
+        <select name="role" required class="input">
+            <option value="employee">Emploi  (Devenir employ&eacute;)</option>
+            <option value="stage">stage (Devenir stagiaire)</option>
+        </select>
+       </div> 
+    </div>
+    <p>message <span>*</span></p>
+    <textarea name="message" class="input"  required maxlength="1000"
+    placeholder="entrer votre message" cols="30" rows="10"></textarea>
+    <input type="submit" value="Envoyer" name="send" class="btn">
+</form>
+</section>
+
+
+<section>
+<title>upload file</title>
+<div class="wrapperMCCR">
+    <div class="boxx">
+        <div class="input-bx">
+        <h2 class="upload-area-title"> T&eacute;l&eacute;verser le fichier</h2>
+        <form action="">
+           <input type="file" id="upload" accept=".doc, .docx, .pdf" hidden> 
+           <label for="upload" class="uploadlabel">
+            <span><i class="fa fa-cloud-upload"></i></span>
+            <p>charger</p>
+           </label>
+        </form>
+    </div>
+
+    <div id="filewrapper">
+        <h3 class="uploaded">T&eacute;l&eacute;charger le CV</h3>
+        <!--<div class="showfilebox">
+            <div class="left">
+                <span class="filetype">pdf</span>
+                <h3>ravi web.pdf</h3>
+            </div>
+            <div class="right">
+                <span>&#215;</span>
+            </div>
+        </div>!-->
+    </div>
+
+
+</div>
+</div>
+
+
+</section>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+ </body>
+</html>
